@@ -35,16 +35,3 @@ Correr la clase `MainCliente`. Se abre una ventana de login donde hay que ingres
 - Contador de usuarios conectados en tiempo real
 
 ---
-
-## Estructura
-
-```
-src/
-├── proyectofinal/      → MainCliente y MainServidor
-├── Servidor/           → Servidor (Singleton) y ClienteHilo (un hilo por cliente)
-└── Cliente/
-    ├── Controlador/    → Lógica de eventos
-    ├── Modelo/         → Datos del usuario y validaciones
-    ├── Network/        → Conexión y recepción de mensajes
-    └── Vista/          → Login y ventana de chat (Swing)
-```
